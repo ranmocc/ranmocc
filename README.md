@@ -1,5 +1,7 @@
-### Hi there 👋
-
+1.；版本号：1.0.1
+2.一款普及急救知识的App，具有十分重要的现实意义
+3.前台原生js加jquery搭建，后台nodeJs加框架express搭建，数据库用的是mysql
+4.功能逐步完善中，请多多关注，喜欢就给个stars吧，多多指教。。。
 <!--
 **ranmocc/ranmocc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

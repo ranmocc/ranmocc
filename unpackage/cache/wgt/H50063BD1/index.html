@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+	<style type="text/css">
+	*{
+		padding: 0;
+		color: black;
+	}
+	html{
+		background-color:#F7F9FC ;
+	}
+	#header{
+		width: 360px;
+		height: 35px;
+		/* background-color: bisque; */
+		margin: 0 auto;
+	}
+	#header form{
+		width: 360px;
+		height: 35px;
+		/* background-color: #808080; */
+	}
+	#header .text{
+		width: 310px;
+		height:33px;
+		display: inline-block;
+		/* margin: 0 auto; */
+		border: 1px black solid ;
+		border-radius: 16px;
+	}
+/* 	#header img{
+		height: 10px;
+		width: 10px;
+	} */
+	
+	#header .submit{
+		width: 40px;
+		height: 30px;
+		border: 0px;
+		background-color: #F7F9FC;
+	}
+	
+	#view{
+		width: 360px;
+		height: 110px;
+		margin: 0 auto;
+		background-color: antiquewhite;
+		margin-top: 20px;
+		border-radius: 5%;
+		
+		overflow: hidden;
+	}
+	.contain{
+		list-style: none;
+		width: 1800px;
+		height: 110px;
+		margin: 0 auto;
+		
+		animation: test 10s infinite;
+	}
+	#view img{
+		width: 360px;
+		height: 110px;
+		float: left;
+	}
+	
+	@-webkit-keyframes test{
+		0%,18%{
+			margin-left: 0;
+		}
+		20%,38%{
+			margin-left: -360px;
+		}
+		40%,58%{
+			margin-left: -720px;
+		}
+		60%,78%{
+			margin-left: -1080px;
+		}
+		80%,100%{
+			margin-left: -1440px;
+		}
+	}
+	
+	#main{
+		width: 360px;
+		height: 400px;
+		margin: 0 auto;
+		/* background-color: #790FFFD4; */
+		margin-top: 0.625rem;
+	}
+	.box{
+		width: 48%;
+		height: 92px;
+		background-color: white;
+		float: right;
+		margin-bottom: 8px;
+		/* margin: 4px; */
+		/* margin-right: 0; */
+		border-radius: 5%;
+		
+	}
+	.boxleft{
+		width: 48%;
+		height: 92px;
+		background-color: white;
+		float: left;
+		margin-bottom: 8px;
+		/* margin: 4px; */
+		/* margin-left: 0; */
+		border-radius: 5%;
+		
+	}
+	#text{
+		float: left;
+		font-weight: bold;
+		margin-top: 15px;
+		margin-left: 15px;
+	}
+	#text p{
+		font-size: xx-small;
+		font-weight: 100;
+		color: gray;
+	}
+	#img{
+		float: right;
+		margin-top: 15px;
+		margin-right: 15px;
+	}
+	</style>
+    
+</head>
+<body>
+	<!-- 搜索框部分 -->
+	<div id="header">
+		<form action="" method="post">
+			<!-- <img src="img/header.png" > -->
+			<input class="text" type="text" placeholder=" 输入急救关键字..." />
+			<input class="submit" type="submit" name="" id="" value="搜索" />
+		</form>
+	</div>
+	
+	<!-- 轮播图部分 -->
+	<div id="view">
+		<ul class="contain">
+			<li><a href=""><img src="img/h1.png" ></a></li>
+			<li><a href=""><img src="img/h2.png" ></a></li>
+			<li><a href=""><img src="img/h3.png" ></a></li>
+			<li><a href=""><img src="img/h4.png" ></a></li>
+			<li><a href=""><img src="img/h5.png" ></a></li>
+		</ul>
+		<!-- <img src="img/h1.png" > -->
+	</div>
+	
+	<!-- 主要内容分类区 -->
+	<div id="main">
+		<a href="./html/box1.html">
+			<div class="boxleft box1">
+				<div id="text">
+					急救技能
+					<p>必学的热门急救</p>
+				</div>
+				<div id="img">
+					<img src="img/1.png" >
+				</div>
+			</div>
+		</a>
+		
+		<a href="./html/box2.html">
+			<div class="box box2" >
+				<div id="text">
+					家庭生活
+					<p>守护身边的TA</p>
+				</div>
+				<div id="img">
+					<img src="img/2.png" >
+				</div>
+			</div>
+		</a>
+		
+		<a href="./html/box3.html">
+			<div class="boxleft box3">
+				<div id="text">
+					急危重症
+					<p>为生命争分夺秒</p>
+				</div>
+				<div id="img">
+					<img src="img/3.png" >
+				</div>
+			</div>
+		</a>
+		
+		<a href="./html/box4.html">
+			<div class="box box4">
+				<div id="text">
+					常见损伤
+					<p>人人可学，“救”在身边</p>
+				</div>
+				<div id="img">
+					<img src="img/4.png" >
+				</div>
+			</div>
+		</a>
+		
+		<a href="./html/box5.html">
+			<div class="boxleft box5">
+				<div id="text">
+					动物治伤
+					<p>友好的与动物交朋友</p>
+				</div>
+				<div id="img">
+					<img src="img/5.png" >
+				</div>
+			</div>
+		</a>
+		
+		<a href="./html/box6.html">
+			<div class="box box6">
+				<div id="text">
+					海洋急救
+					<p>美丽与危险相依相存</p>
+				</div>
+				<div id="img">
+					<img src="img/6.png" >
+				</div>
+			</div>
+		</a>
+		
+		<a href="./html/box7.html">
+			<div class="boxleft box7">
+				<div id="text">
+					中毒急救
+					<p>中毒不怕，我有解药</p>
+				</div>
+				<div id="img">
+					<img src="img/7.png" >
+				</div>
+			</div>
+		</a>
+		
+		<a href="./html/box8.html">
+			<div class="box box8">
+				<div id="text">
+					意外事故
+					<p>明天和意外，谁先来</p>
+				</div>
+				<div id="img">
+					<img src="img/8.png" >
+				</div>
+			</div>
+		</a>
+		
+		
+	</div>
+	
+	<div id="footer">
+		
+	</div>
+	
+	
+	<script type="text/javascript">
+		
+		document.addEventListener('plusready', function(){
+			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。")
+			
+		});
+		
+	</script>
+</body>
+</html>

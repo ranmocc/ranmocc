@@ -1,0 +1,102 @@
+		*{
+			padding: 0;
+			margin: 0;
+			/* background-color: #F68E19; */
+			background-color:#F7F9FC ;
+		}
+		
+		#header{
+			width: 100%;
+			height: 105px;
+			margin: 0 auto;
+			background-color: #F68E19;
+			position: fixed;
+			top: 0;
+			z-index: 999;
+		}
+		#sousuo{
+			width: 100%;
+			height: 45px;
+			background-color: #F68E19;
+			margin: 0 auto;
+		}
+		
+		#sousuo .img1{
+			height: 35px;
+			width: 30px;
+			position: absolute;
+			left: 20px;
+		}
+		#sousuo .img2{
+			height: 35px;
+			width: 82vw;
+			position: absolute;
+			left: 13vw;
+		}
+		#top{
+			width: 22.5rem;
+			height: 60px;
+			background-color: #F68E19;
+			margin: 0 auto;
+			color: white;
+			font-size: large;
+			font-weight: 600;
+		}
+		#top p{
+			font-size: xx-small;
+			font-weight: 100;
+			color: aliceblue;
+			background-color: #F68E19;
+		}
+		
+		
+		
+		#main{
+			width: 360px;
+			height: 600px;
+			background-color: #F7F9FC;
+			margin: 0 auto;
+			
+			position: relative;
+			z-index: 1;
+			top: 130px;
+		}
+		
+		#lists{
+			width: 100%;
+			height: 30px;
+			background-color:#F7F9FC ;
+			/* margin: 0 auto; */
+			/* border: 1px black solid; */
+			position: fixed;
+			z-index: 1;
+			top: 105px;
+		}
+		.list{
+			width: 5rem;
+			height: 30px;
+			float: left;
+			background-color:#F7F9FC ;
+			font-size: x-small;
+			line-height: 30px;
+		}
+		.list a{
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#contain{
+			width: 22.5rem;
+			background-color: #F7F9FC;
+			/* border: 1px black solid; */
+			margin: 0 auto;
+			position: relative;
+			top: 5px;
+		}
+		#contain .son{
+			width: 22.5rem;
+			height: 75px;
+			background-color: white;
+			border-radius:8px ;
+			margin-top: 5px;
+		}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+	<!-- 搜索框部分 -->
+	<div id="header">
+		<img src="img/side.png" class="img1" id="sidecol" onclick="showside()">
+		<a href="sousuo.html"><img src="img/sousuo.png" class="img2"></a>
+	</div>
+
+	<!-- 轮播图部分 -->
+	<div id="view">
+		<ul class="contain">
+			<li><a href=""><img src="img/h1.png" ></a></li>
+			<li><a href=""><img src="img/h2.png" ></a></li>
+			<li><a href=""><img src="img/h3.png" ></a></li>
+			<li><a href=""><img src="img/h4.png" ></a></li>
+			<li><a href=""><img src="img/h5.png" ></a></li>
+		</ul>
+		<!-- <img src="img/h1.png" > -->
+	</div>
+
+	<!-- 主要内容分类区 -->
+	<div id="main">
+		<a href="./box/box1/box1.html">
+			<div class="boxleft box1">
+				<div class="text">
+					急救技能
+					<p>必学的热门急救</p>
+				</div>
+				<div class="img">
+					<img src="img/1.png" >
+				</div>
+			</div>
+		</a>
+
+		<a href="./box/box2/box2.html">
+			<div class="box box2" >
+				<div class="text">
+					家庭生活
+					<p>守护身边的TA</p>
+				</div>
+				<div class="img">
+					<img src="img/2.png" >
+				</div>
+			</div>
+		</a>
+
+		<a href="./box/box3/box3.html">
+			<div class="boxleft box3">
+				<div class="text">
+					急危重症
+					<p>为生命争分夺秒</p>
+				</div>
+				<div class="img">
+					<img src="img/3.png" >
+				</div>
+			</div>
+		</a>
+
+		<a href="./box/box4/box4.html">
+			<div class="box box4">
+				<div class="text">
+					常见损伤
+					<p>人人可学，“救”在身边</p>
+				</div>
+				<div class="img">
+					<img src="img/4.png" >
+				</div>
+			</div>
+		</a>
+
+		<a href="./box/box5/box5.html">
+			<div class="boxleft box5">
+				<div class="text">
+					动物治伤
+					<p>友好的与动物交朋友</p>
+				</div>
+				<div id="img">
+					<img src="img/5.png" >
+				</div>
+			</div>
+		</a>
+
+		<a href="./box/box6/box6.html">
+			<div class="box box6">
+				<div class="text">
+					海洋急救
+					<p>美丽与危险相依相存</p>
+				</div>
+				<div class="img">
+					<img src="img/6.png" >
+				</div>
+			</div>
+		</a>
+
+		<a href="./box/box7/box7.html">
+			<div class="boxleft box7">
+				<div class="text">
+					中毒急救
+					<p>中毒不怕，我有解药</p>
+				</div>
+				<div class="img">
+					<img src="img/7.png" >
+				</div>
+			</div>
+		</a>
+
+		<a href="./box/box8/box8.html">
+			<div class="box box8">
+				<div class="text">
+					意外事故
+					<p>明天和意外，谁先来</p>
+				</div>
+				<div class="img">
+					<img src="img/8.png" >
+				</div>
+			</div>
+		</a>
+
+
+	</div>
+
+	<div id="side">
+		<img src="img/side1.png" class="img1">
+		<img src="img/side2.png" class="img2">
+		<a href="#"><p>点击登录</p></a>
+		<br>
+		<br>
+		<ul>
+			<li>&nbsp;<img src="img/li1.png" >&nbsp;&nbsp;&nbsp;<a href="#">我的下载</a></li>
+			<li>&nbsp;<img src="img/li2.png" >&nbsp;&nbsp;&nbsp;<a href="#">用户协议</a></li>
+			<li>&nbsp;<img src="img/li3.png" >&nbsp;&nbsp;&nbsp;<a href="#">隐私政策</a></li>
+			<li>&nbsp;<img src="img/li4.png" >&nbsp;&nbsp;&nbsp;<a href="#">关于我们</a></li>
+		</ul>
+
+		<div id="footer">
+			1.0.0
+		</div>
+
+		<img src="img/side3.png" class="img3">
+	</div>
+
+	<div id="rightside" onclick="closeside()">
+
+	</div>
+
+	<div id="footers">
+
+	</div>
+
+
+	<script type="text/javascript">
+		function showside(){
+			var img1 = document.getElementById("sidecol");
+
+			img1.onclick = function(){
+				var side = document.getElementById("side");
+				var rightside = document.getElementById("rightside");
+				side.style.display=("inline");
+				rightside.style.display = ("inline");
+			}
+		}
+		function closeside(){
+			var rightside = document.getElementById("rightside");
+
+			rightside.onclick = function(){
+				var side = document.getElementById("side");
+				var rightside = document.getElementById("rightside");
+				side.style.display=("none");
+				rightside.style.display = ("none");
+			}
+		}
+	</script>
+</body>
+</html>
